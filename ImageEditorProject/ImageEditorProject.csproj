@@ -91,6 +91,9 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="README.md" />
+    <None Include="Requirements.md" />
+    <None Include="visiondocument.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
