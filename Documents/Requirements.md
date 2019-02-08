@@ -127,3 +127,7 @@ This project is going to be a utility that can be used to edit and process image
 	29. **Name:**hotkeys
 		**Type:**function
 		**Summary:**Keys that can be pressed in succession to allow ease of access to functions.
+
+	30. **Name:**interfaceLayers
+		**Type:**function
+		**Summary:**interface to show the different layers and what the active layer is.
