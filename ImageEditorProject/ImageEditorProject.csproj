@@ -92,7 +92,6 @@
     </None>
     <AppDesigner Include="Properties\" />
     <None Include="README.md" />
-    <None Include="Requirements.md" />
     <None Include="visiondocument.docx" />
   </ItemGroup>
   <ItemGroup>
