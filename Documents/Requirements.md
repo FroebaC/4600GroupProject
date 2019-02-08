@@ -119,3 +119,11 @@ This project is going to be a utility that can be used to edit and process image
 	27.	*Name:*matrixManipulation
 		*Type:*risk
 		*Summary:*.Net math libraries are sufficent for the calculations needed.
+
+	28. *Name:*toolbar
+		*Type:*function
+		*Summary:*user interface element that allows ease of access to functions.
+
+	29. *Name:*hotkeys
+		*Type:*function
+		*Summary:*Keys that can be pressed in succession to allow ease of access to functions.
