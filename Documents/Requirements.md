@@ -4,7 +4,7 @@
 Chris Froeba and Zach Travis
 
 ##Purpose
-This project is going to be a utility that can be used to edit and process images.
+This project is going to be a utility that will be able to do basic image editing and will allow the user to process and combine images of type .jpg and .png.
 
 ##Requirements
 
@@ -131,3 +131,7 @@ This project is going to be a utility that can be used to edit and process image
 	30. **Name:**interfaceLayers
 		**Type:**function
 		**Summary:**interface to show the different layers and what the active layer is.
+
+	31. **Name:**imageSelector
+		**Type:**function
+		**Summary:**Used to aid in image editing, will help convert images into bitmaps so they can be worked on.
