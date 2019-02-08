@@ -1,7 +1,7 @@
 #Image Editor Project Requirements
 
 ##Team Memebers
-Chris and Zach
+Chris Froeba and Zach Travis
 
 ##Purpose
 This project is going to be a utility that can be used to edit and process images.
