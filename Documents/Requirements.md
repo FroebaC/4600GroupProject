@@ -89,7 +89,7 @@ This project is going to be a utility that can be used to edit and process image
 		*Summary:*The WPF canvas will be used to display images.
 	
 	20.	*Name:*fileTooLarge
-		*Type:*risk
+		*Type:*constraint
 		*Summary:*If the file is too large then it should be scaled down to something workable, this can reduce image quality
 
 	21.	*Name:*sendToFront
