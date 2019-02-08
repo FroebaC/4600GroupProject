@@ -115,3 +115,7 @@ This project is going to be a utility that can be used to edit and process image
 	26.	*Name:*brushSizeSelector
 		*Type:*function
 		*Summary:*Will allow the user to chose a brush size.
+
+	27.	*Name:*matrixManipulation
+		*Type:*risk
+		*Summary:*.Net math libraries are sufficent for the calculations needed.
