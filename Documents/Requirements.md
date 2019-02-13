@@ -8,9 +8,9 @@ This project is going to be a utility that will be able to do basic image editin
 
 ## Requirements
 
-	1.	**Name:**loadImage
-		**Type:**function
-		**Summary:**Will load an image from file onto the canvas
+	1.	** Name:**loadImage
+		** Type:**function
+		** Summary:**Will load an image from file onto the canvas
 
 	2.	**Name:**displayImage
 		**Type:**function
