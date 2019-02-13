@@ -1,12 +1,12 @@
-#Image Editor Project Requirements
+# Image Editor Project Requirements
 
-##Team Memebers
+## Team Memebers
 Chris Froeba and Zach Travis
 
-##Purpose
+## Purpose
 This project is going to be a utility that will be able to do basic image editing and will allow the user to process and combine images of type .jpg and .png.
 
-##Requirements
+## Requirements
 
 	1.	**Name:**loadImage
 		**Type:**function
