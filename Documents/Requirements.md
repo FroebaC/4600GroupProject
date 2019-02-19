@@ -12,6 +12,10 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:**  function  
 **Summary:**  Will load an image from file onto the canvas.  
 
+1. **Name:** save_Image  
+**Type:** function  
+**Summary:** Allows the user to save the image.  
+
 1. **Name:** display_Image  
 **Type:** function  
 **Summary:** Will display the image on the canvas.  
@@ -51,20 +55,16 @@ This project is going to be a utility that will be able to do basic image editin
 1. **Name:** layer_Image  
 **Type:** function  
 **Summary:** Allows the user to layer multiple images over each other.  
-	
-1. **Name:** save_Image  
-**Type:** function  
-**Summary:** Allows the user to save the image.  
 
 1. **Name:** platform_OS  
 **Type:** constraint  
 **Summary:** The target platform operating system is Windows 10.  
 
-1. **Name:** interface_For_Recent_Projects  
-**Type:** risk  
+1. **Name:** recent_Projects  
+**Type:** function  
 **Summary:** Will allow the user to select from recently edited images.  
 
-1. **Name:** filp_Image  
+1. **Name:** flip_Image  
 **Type:** function  
 **Summary:** inverts the image from left to right or top to bottom.  
 	
@@ -79,6 +79,10 @@ This project is going to be a utility that will be able to do basic image editin
 1. **Name:** paint_Brush  
 **Type:** function  
 **Summary:** will allows the user to paint on the image with a seletable brush size.  
+
+1. **Name:** brush_Size_Selector  
+**Type:** function  
+**Summary:** Will allow the user to choose different brush sizes.  
 
 1. **Name:** brightness_Correction  
 **Type:** function  
@@ -115,10 +119,6 @@ This project is going to be a utility that will be able to do basic image editin
 1. **Name:** Application_Environment  
 **Type:** constraint  
 **Summary:**  The application will require the .NET runtime environment on the machine.  
-	
-1. **Name:** brush_Size_Selector  
-**Type:** function  
-**Summary:** Will allow the user to choose different brush sizes.  
 
 1. **Name:** matrix_Manipulation  
 **Type:** constraint  
