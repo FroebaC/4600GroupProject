@@ -10,15 +10,19 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** loadImage  
 **Type:**  function  
-**Summary:**  Will load an image from file onto the canvas  
+**Summary:**  Will load an image from file onto the canvas.  
 
 1. **Name:** displayImage  
 **Type:** function  
-**Summary:** Will display the image on the canvas  
+**Summary:** Will display the image on the canvas.  
 	
 1. **Name:** drawOnImage  
 **Type:** function  
-**Summary:** Will allow drawing on the image in 1 pixel widths  
+**Summary:** Will allow drawing on the image with different pen widths.  
+
+1. **Name:** penWidth  
+**Type:** function  
+**Summary:** Will allow the selection of different pen widths.  
 
 1. **Name:** eraseFromImage  
 **Type:** function  
@@ -54,7 +58,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** platform_os  
 **Type:** constraint  
-**Summary:** The target platform operating system is Windows 10  
+**Summary:** The target platform operating system is Windows 10.  
 
 1. **Name:** interfaceForRecentProjects  
 **Type:** risk  
@@ -66,22 +70,22 @@ This project is going to be a utility that will be able to do basic image editin
 	
 1. **Name:** autoColorCorrection  
 **Type:** risk  
-**Summary:** Will color correct the image automatically for the user  
+**Summary:** Will color correct the image automatically for the user.  
 
 1. **Name:** paintBucket  
 **Type:** function  
-**Summary:** Will find pixels near eachother that are similar and will change them all to the same selected color  
+**Summary:** Will find pixels near eachother that are similar and will change them all to the same selected color.  
 	
 1. **Name:** paintBrush  
 **Type:** function  
-**Summary:** will allows the user to paint on the image with a seletable brush size  
+**Summary:** will allows the user to paint on the image with a seletable brush size.  
 
 1. **Name:** brightnessCorrection  
 **Type:** function  
 **Summary:** Will automatically correct brigtness levels ins the image.  
 	
 1. **Name:** convertToBitmap  
-**Type:** risk  
+**Type:** function  
 **Summary:** To work with the images we should convert the image to bitmap to make working with them easier.  
 
 1. **Name:** canvasToDisplay  
@@ -90,7 +94,7 @@ This project is going to be a utility that will be able to do basic image editin
 	
 1. **Name:** fileTooLarge  
 **Type:** constraint  
-**Summary:** If the file is too large then it should be scaled down to something workable, this can reduce image quality  
+**Summary:** If the file is too large then it should be scaled down to something workable, this can reduce image quality.  
 
 1. **Name:** sendToFront  
 **Type:** function  
@@ -102,11 +106,11 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** colorPicker  
 **Type:** function  
-**Summary:** Allows for a color to be selected to be used with other drawing and painting functions  
+**Summary:** Allows for a color to be selected to be used with other drawing and painting functions.  
 
 1. **Name:** fileType  
 **Type:** constraint  
-**Summary:** Will only accept .jpg and .png files  
+**Summary:** Will only accept .jpg and .png files.  
 
 1. **Name:** Application_Environment  
 **Type:** constraint  
@@ -114,13 +118,13 @@ This project is going to be a utility that will be able to do basic image editin
 	
 1. **Name:** brushSizeSelector  
 **Type:** function  
-**Summary:** Will allow the user to chose a brush size.  
+**Summary:** Will allow the user to choose different brush sizes.  
 
 1. **Name:** matrixManipulation  
-**Type:** risk  
-**Summary:** .Net math libraries are sufficent for the calculations needed.  
+**Type:** constraint  
+**Summary:** .Net math libraries used for matrix manipulation.  
 
-1. **Name:** toolbar  
+1. **Name:** interface_toolbar  
 **Type:** function  
 **Summary:** user interface element that allows ease of access to functions.  
 
@@ -128,10 +132,18 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** function  
 **Summary:** Keys that can be pressed in succession to allow ease of access to functions.  
 
-1. **Name:** interfaceLayers  
+1. **Name:** interface_Layers  
 **Type:** function  
 **Summary:** interface to show the different layers and what the active layer is.  
 
 1. **Name:** imageSelector  
 **Type:** function  
 **Summary:** Used to aid in image editing, will help convert images into bitmaps so they can be worked on.  
+
+1. **Name:** undo  
+**Type:** function  
+**Summary:** Will allow the user to indo whatever action was their previous.  
+
+1. **Name:** redo  
+**Type:** function  
+**Summary:** Will allow the user to redo the action was previously undone. Specifically will only be allowd if no other actions are taken between undo and redo.  
