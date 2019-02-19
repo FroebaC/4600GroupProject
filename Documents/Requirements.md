@@ -8,41 +8,41 @@ This project is going to be a utility that will be able to do basic image editin
 
 ## Requirements
 
-1. **Name:** loadImage
-**Type:**  function
-**Summary:**  Will load an image from file onto the canvas
+1. **Name:** loadImage  
+**Type:**  function  
+**Summary:**  Will load an image from file onto the canvas  
 
-1. **Name:** displayImage
-**Type:** function
-**Summary:** Will display the image on the canvas
+1. **Name:** displayImage  
+**Type:** function  
+**Summary:** Will display the image on the canvas  
 	
-1. **Name:** drawOnImage
-**Type:** function
-**Summary:** Will allow drawing on the image in 1 pixel widths
+1. **Name:** drawOnImage  
+**Type:** function  
+**Summary:** Will allow drawing on the image in 1 pixel widths  
 
-1. **Name:** eraseFromImage
-**Type:** function
-**Summary:** Will allow the user to erase pixels from the image.
+1. **Name:** eraseFromImage  
+**Type:** function  
+**Summary:** Will allow the user to erase pixels from the image.  
 	
-1. **Name:** grayscaleImage
-**Type:** function
-**Summary:** Will convert the image to grayscale(black and white).
+1. **Name:** grayscaleImage  
+**Type:** function  
+**Summary:** Will convert the image to grayscale(black and white).  
 
-1. **Name:** sepiaImage
-**Type:** function
-**Summary:** Will convert the image to sepia (brown and white).
+1. **Name:** sepiaImage  
+**Type:** function  
+**Summary:** Will convert the image to sepia (brown and white).  
 
-1. **Name:** scaleImage
-**Type:** funciton
-**Summary:** Will scale the image either up or down in width and length.
+1. **Name:** scaleImage  
+**Type:** funciton  
+**Summary:** Will scale the image either up or down in width and length.  
 
-1. **Name:** rotateImage
-**Type:** function
-**Summary:** Will allow the user to rotate the image around 360 degrees.
+1. **Name:** rotateImage  
+**Type:** function  
+**Summary:** Will allow the user to rotate the image around 360 degrees.  
 	
-1. **Name:** cropImage
-**Type:** function
-**Summary:** Will allow the user to take a selection of the picture, and will remove the rest.
+1. **Name:** cropImage  
+**Type:** function  
+**Summary:** Will allow the user to take a selection of the picture, and will remove the rest.  
 
 1. **Name:** layerImage  
 **Type:** function  
@@ -64,7 +64,7 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** function  
 **Summary:** inverts the image from left to right or top to bottom.  
 	
-15. **Name:** autoColorCorrection  
+1. **Name:** autoColorCorrection  
 **Type:** risk  
 **Summary:** Will color correct the image automatically for the user  
 
