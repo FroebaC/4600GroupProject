@@ -8,107 +8,107 @@ This project is going to be a utility that will be able to do basic image editin
 
 ## Requirements
 
-1. **Name:** loadImage  
+1. **Name:** load_Image  
 **Type:**  function  
 **Summary:**  Will load an image from file onto the canvas.  
 
-1. **Name:** displayImage  
+1. **Name:** display_Image  
 **Type:** function  
 **Summary:** Will display the image on the canvas.  
 	
-1. **Name:** drawOnImage  
+1. **Name:** draw_On_Image  
 **Type:** function  
 **Summary:** Will allow drawing on the image with different pen widths.  
 
-1. **Name:** penWidth  
+1. **Name:** pen_Width  
 **Type:** function  
 **Summary:** Will allow the selection of different pen widths.  
 
-1. **Name:** eraseFromImage  
+1. **Name:** erase_From_Image  
 **Type:** function  
 **Summary:** Will allow the user to erase pixels from the image.  
 	
-1. **Name:** grayscaleImage  
+1. **Name:** grayscale_Image  
 **Type:** function  
 **Summary:** Will convert the image to grayscale(black and white).  
 
-1. **Name:** sepiaImage  
+1. **Name:** sepia_Image  
 **Type:** function  
 **Summary:** Will convert the image to sepia (brown and white).  
 
-1. **Name:** scaleImage  
+1. **Name:** scale_Image  
 **Type:** funciton  
 **Summary:** Will scale the image either up or down in width and length.  
 
-1. **Name:** rotateImage  
+1. **Name:** rotate_Image  
 **Type:** function  
 **Summary:** Will allow the user to rotate the image around 360 degrees.  
 	
-1. **Name:** cropImage  
+1. **Name:** crop_Image  
 **Type:** function  
 **Summary:** Will allow the user to take a selection of the picture, and will remove the rest.  
 
-1. **Name:** layerImage  
+1. **Name:** layer_Image  
 **Type:** function  
 **Summary:** Allows the user to layer multiple images over each other.  
 	
-1. **Name:** saveImage  
+1. **Name:** save_Image  
 **Type:** function  
 **Summary:** Allows the user to save the image.  
 
-1. **Name:** platform_os  
+1. **Name:** platform_OS  
 **Type:** constraint  
 **Summary:** The target platform operating system is Windows 10.  
 
-1. **Name:** interfaceForRecentProjects  
+1. **Name:** interface_For_Recent_Projects  
 **Type:** risk  
 **Summary:** Will allow the user to select from recently edited images.  
 
-1. **Name:** filpImage  
+1. **Name:** filp_Image  
 **Type:** function  
 **Summary:** inverts the image from left to right or top to bottom.  
 	
-1. **Name:** autoColorCorrection  
+1. **Name:** auto_Color_Correction  
 **Type:** risk  
 **Summary:** Will color correct the image automatically for the user.  
 
-1. **Name:** paintBucket  
+1. **Name:** paint_Bucket  
 **Type:** function  
 **Summary:** Will find pixels near eachother that are similar and will change them all to the same selected color.  
 	
-1. **Name:** paintBrush  
+1. **Name:** paint_Brush  
 **Type:** function  
 **Summary:** will allows the user to paint on the image with a seletable brush size.  
 
-1. **Name:** brightnessCorrection  
+1. **Name:** brightness_Correction  
 **Type:** function  
 **Summary:** Will automatically correct brigtness levels ins the image.  
 	
-1. **Name:** convertToBitmap  
+1. **Name:** convert_To_Bitmap  
 **Type:** function  
 **Summary:** To work with the images we should convert the image to bitmap to make working with them easier.  
 
-1. **Name:** canvasToDisplay  
+1. **Name:** canvas_To_Display  
 **Type:** function  
 **Summary:** The WPF canvas will be used to display images.  
 	
-1. **Name:** fileTooLarge  
+1. **Name:** file_Too_Large  
 **Type:** constraint  
 **Summary:** If the file is too large then it should be scaled down to something workable, this can reduce image quality.  
 
-1. **Name:** sendToFront  
+1. **Name:** send_To_Front  
 **Type:** function  
 **Summary:** Allows layered image to be sent to the front of the layers.  
 	
-1. **Name:** sendToBack  
+1. **Name:** send_To_Back  
 **Type:** function  
 **Summary:** Allows layered image to be sent to the back of the layers.  
 
-1. **Name:** colorPicker  
+1. **Name:** color_Picker  
 **Type:** function  
 **Summary:** Allows for a color to be selected to be used with other drawing and painting functions.  
 
-1. **Name:** fileType  
+1. **Name:** file_Type  
 **Type:** constraint  
 **Summary:** Will only accept .jpg and .png files.  
 
@@ -116,11 +116,11 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** constraint  
 **Summary:**  The application will require the .NET runtime environment on the machine.  
 	
-1. **Name:** brushSizeSelector  
+1. **Name:** brush_Size_Selector  
 **Type:** function  
 **Summary:** Will allow the user to choose different brush sizes.  
 
-1. **Name:** matrixManipulation  
+1. **Name:** matrix_Manipulation  
 **Type:** constraint  
 **Summary:** .Net math libraries used for matrix manipulation.  
 
@@ -136,14 +136,14 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** function  
 **Summary:** interface to show the different layers and what the active layer is.  
 
-1. **Name:** imageSelector  
+1. **Name:** image_Selector  
 **Type:** function  
 **Summary:** Used to aid in image editing, will help convert images into bitmaps so they can be worked on.  
 
-1. **Name:** undo  
+1. **Name:** undo_Action  
 **Type:** function  
 **Summary:** Will allow the user to indo whatever action was their previous.  
 
-1. **Name:** redo  
+1. **Name:** redo_Action  
 **Type:** function  
 **Summary:** Will allow the user to redo the action was previously undone. Specifically will only be allowd if no other actions are taken between undo and redo.  
