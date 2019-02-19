@@ -88,7 +88,7 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** function  
 **Summary:** The WPF canvas will be used to display images.  
 	
-1.**Name:** fileTooLarge  
+1. **Name:** fileTooLarge  
 **Type:** constraint  
 **Summary:** If the file is too large then it should be scaled down to something workable, this can reduce image quality  
 
