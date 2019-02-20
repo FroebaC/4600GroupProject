@@ -22,7 +22,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** save_Image  
 **Type:** function  
-**Summary:** Images may be saved locally.  
+**Summary:** The canvas may be saved to local files.  
 
 1. **Name:** recent_Projects  
 **Type:** function  
@@ -46,27 +46,27 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** paint_Brush  
 **Type:** function  
-**Summary:** will allow the user to paint on the image with a seletable brush size. 
+**Summary:** A "paint brush" will allow the user to layer color on the canvas with selectable sizes and color. 
 
 1. **Name:** brush_Width  
 **Type:** function  
-**Summary:** Will allow the selection of different pen widths.  
+**Summary:** The user can select different brush widths.  
 
-1. **Name:** brush_Size_Selector  
+1. **Name:** brush_Shape  
 **Type:** function  
-**Summary:** Will allow the user to choose different brush sizes. 
+**Summary:** The user can select different brush shapes.  
 
 1. **Name:** color_Picker  
 **Type:** function  
-**Summary:** Allows for a color to be selected to be used with other drawing and painting functions.  
+**Summary:** Options for various colors are available for using the paint brush.  
 
 1. **Name:** paint_Bucket  
 **Type:** function  
-**Summary:** Will find pixels near each other that are similar and will change them all to the same selected color.   
+**Summary:** Connected pixels that are very similar in color may be selected and changed using the "paint bucket".   
 
 1. **Name:** erase_From_Image  
 **Type:** function  
-**Summary:** Will allow the user to erase pixels from the image.  
+**Summary:** An "eraser" will allow the user to erase pixels from selected layers of images.  
 
 1. **Name:** scale_Image  
 **Type:** funciton  
