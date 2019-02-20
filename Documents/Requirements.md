@@ -97,7 +97,7 @@ This project is going to be a utility that will be able to do basic image editin
 **Summary:** Will convert the image to sepia (brown and white).  
 	
 1. **Name:** auto_Color_Correction  
-**Type:** risk  
+**Type:** function  
 **Summary:** Will color correct the image automatically for the user.   
 
 1. **Name:** brightness_Correction  
