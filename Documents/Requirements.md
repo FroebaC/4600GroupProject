@@ -134,7 +134,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** hotkeys  
 **Type:** function  
-**Summary:** Keys that can be pressed in succession to allow ease of access to functions.  
+**Summary:** Keys that can be pressed in specific combinations to allow ease of access to functions.  
 
 1. **Name:** undo_Action  
 **Type:** function  
