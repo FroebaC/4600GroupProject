@@ -4,12 +4,11 @@
 Chris Froeba and Zach Travis
 
 ## Purpose
-This application is an image editing utility that enables users to reorient, layer, recolor, resize, "draw" on,  
-and color correct images that are type .jpg and .png. 
+This project is going to be a utility that will be able to do basic image editing and will allow the user to process and combine images of type .jpg and .png.
 
 ## Requirements
 
-1. **Name:** Canvas  
+1. **Name:** canvas  
 **Type:** function  
 **Summary:** A graphical canvas will provide a visual platform to position and display images. 
 
@@ -71,19 +70,19 @@ and color correct images that are type .jpg and .png.
 
 1. **Name:** scale_Image  
 **Type:** funciton  
-**Summary:** Images may be scaled either up or down in width and length.  
+**Summary:** Will scale the image either up or down in width and length.  
 
 1. **Name:** rotate_Image  
 **Type:** function  
-**Summary:** The user can rotate an image by at least 45 degree increments, within 360 degrees.   
+**Summary:** Will allow the user to rotate the image by at least 45 degree increments, within 360 degrees.   
 
 1. **Name:** flip_Image  
 **Type:** function  
-**Summary:** Functionality is provided to invert an image from left to right or top to bottom.  
+**Summary:** inverts the image from left to right or top to bottom.  
 	
 1. **Name:** crop_Image  
 **Type:** function  
-**Summary:** Will allow the user to take a selection of the picture, and will remove the rest.  
+**Summary:** Will allow the user to make a specific rectangular selection of the image, and this selection will become the new workable image.   
 
 1. **Name:** layer_Image  
 **Type:** function  
@@ -107,7 +106,7 @@ and color correct images that are type .jpg and .png.
 
 1. **Name:** interface_Layers  
 **Type:** function  
-**Summary:** interface to show the different layers and what the active layer is.  
+**Summary:** Interface to show the different layers and what the active layer is.  
 
 1. **Name:** send_To_Front  
 **Type:** function  
@@ -127,11 +126,11 @@ and color correct images that are type .jpg and .png.
 
 1. **Name:** image_Selector  
 **Type:** function  
-**Summary:** Used to aid in image editing, will help convert images into bitmaps so they can be worked on.  
+**Summary:** Used to aid in image editing, will convert images into bitmaps so they can be worked on easier with C#.  
 	
 1. **Name:** file_Too_Large  
 **Type:** constraint  
-**Summary:** If the file is too large then it should be scaled down to something workable, this can reduce image quality.  
+**Summary:** If the file is too larger than 12 megapixels, it will be scaled down with the same length and withd ratios to or below this limit. This can reduce image quality.  
 
 1. **Name:** hotkeys  
 **Type:** function  
@@ -139,7 +138,7 @@ and color correct images that are type .jpg and .png.
 
 1. **Name:** undo_Action  
 **Type:** function  
-**Summary:** Will allow the user to indo whatever action was their previous.  
+**Summary:** Will allow the user to undo whatever action was their previous.  
 
 1. **Name:** redo_Action  
 **Type:** function  
