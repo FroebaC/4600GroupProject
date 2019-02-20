@@ -40,21 +40,17 @@ This project is going to be a utility that will be able to do basic image editin
 **Type:** function  
 **Summary:** An interactive toolbar element will display and allow access to various functions. 
 	
-1. **Name:** draw_On_Image  
+1. **Name:** draw_Pen  
 **Type:** function  
-**Summary:** Will allow drawing on the image with different pen widths.  
+**Summary:** "Pens" are templates with fixed settings for drawing on the canvas, such as color and widths.  
 
-1. **Name:** pen_Width  
-**Type:** function  
-**Summary:** Will allow the selection of different pen widths.  
-
-1. **Name:** paint_Bucket  
-**Type:** function  
-**Summary:** Will find pixels near eachother that are similar and will change them all to the same selected color.  
-	
 1. **Name:** paint_Brush  
 **Type:** function  
-**Summary:** will allows the user to paint on the image with a seletable brush size.  
+**Summary:** will allow the user to paint on the image with a seletable brush size. 
+
+1. **Name:** brush_Width  
+**Type:** function  
+**Summary:** Will allow the selection of different pen widths.  
 
 1. **Name:** brush_Size_Selector  
 **Type:** function  
@@ -63,6 +59,10 @@ This project is going to be a utility that will be able to do basic image editin
 1. **Name:** color_Picker  
 **Type:** function  
 **Summary:** Allows for a color to be selected to be used with other drawing and painting functions.  
+
+1. **Name:** paint_Bucket  
+**Type:** function  
+**Summary:** Will find pixels near each other that are similar and will change them all to the same selected color.   
 
 1. **Name:** erase_From_Image  
 **Type:** function  
@@ -154,4 +154,4 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** matrix_Manipulation  
 **Type:** constraint  
-**Summary:** .Net math libraries used for matrix manipulation.  
+**Summary:** .NET math libraries used for matrix manipulation.  
