@@ -10,27 +10,31 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** load_Image  
 **Type:**  function  
-**Summary:**  Will load an image from file onto the canvas.  
+**Summary:**  Images may be loaded from local files to the program.  
 
 1. **Name:** save_Image  
 **Type:** function  
-**Summary:** Allows the user to save the image.  
+**Summary:** Images may be saved locally.  
 
 1. **Name:** recent_Projects  
 **Type:** function  
-**Summary:** Will allow the user to select from recently edited images.  
+**Summary:** The program will save recently edited images for the user to load again.   
 
-1. **Name:** canvas_To_Display  
-**Type:** function  
-**Summary:** The WPF canvas will be used to display images.  
+1. **Name:** WPF_Canvas  
+**Type:** constraint  
+**Summary:** The WPF canvas will position and display images.  
 
-1. **Name:** display_Image  
+1. **Name:** image_Selection_Interface
 **Type:** function  
-**Summary:** Will display the image on the canvas.  
+**Summary:** A panel will show currently loaded images for the session.
 
-1. **Name:** interface_toolbar  
+1. **Name:** select_Image  
 **Type:** function  
-**Summary:** user interface element that allows ease of access to functions.  
+**Summary:** Images available for the session may be placed on the canvas.
+
+1. **Name:** interface_Toolbar  
+**Type:** function  
+**Summary:** An interactive toolbar element will display and allow access to functions. 
 	
 1. **Name:** draw_On_Image  
 **Type:** function  
@@ -66,7 +70,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** rotate_Image  
 **Type:** function  
-**Summary:** Will allow the user to rotate the image around 360 degrees.  
+**Summary:** Will allow the user to rotate the image by at least 45 degree increments, within 360 degrees.   
 
 1. **Name:** flip_Image  
 **Type:** function  
