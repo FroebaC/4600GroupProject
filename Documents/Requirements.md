@@ -4,7 +4,8 @@
 Chris Froeba and Zach Travis
 
 ## Purpose
-This project is going to be a utility that will be able to do basic image editing and will allow the user to process and combine images of type .jpg and .png.
+This application is an image editing utility that enables users to reorient, layer, recolor, resize, "draw" on,  
+and color correct images that are type .jpg and .png. 
 
 ## Requirements
 
