@@ -8,9 +8,17 @@ This project is going to be a utility that will be able to do basic image editin
 
 ## Requirements
 
+1. **Name:** Canvas  
+**Type:** function  
+**Summary:** A canvas will provide a visual platform to position and display images. 
+
+1. **Name:** image_Panel  
+**Type:** function  
+**Summary:** An image panel will show the user currently loaded images for the session.  
+
 1. **Name:** load_Image  
 **Type:**  function  
-**Summary:**  Images may be loaded from local files to the program.  
+**Summary:**  Images may be loaded from local files to the program session.  
 
 1. **Name:** save_Image  
 **Type:** function  
@@ -18,19 +26,15 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** recent_Projects  
 **Type:** function  
-**Summary:** The program will save recently edited images for the user to load again.   
-
-1. **Name:** WPF_Canvas  
-**Type:** constraint  
-**Summary:** The WPF canvas will position and display images.  
-
-1. **Name:** image_Selection_Interface
-**Type:** function  
-**Summary:** A panel will show currently loaded images for the session.
+**Summary:** The program will save recently edited images for the user to load again.    
 
 1. **Name:** select_Image  
 **Type:** function  
 **Summary:** Images available for the session may be placed on the canvas.
+
+1. **Name:** remove_Image  
+**Type:** function  
+**Summary:** Images may be removed from the session.
 
 1. **Name:** interface_Toolbar  
 **Type:** function  
