@@ -71,15 +71,15 @@ and color correct images that are type .jpg and .png.
 
 1. **Name:** scale_Image  
 **Type:** funciton  
-**Summary:** Will scale the image either up or down in width and length.  
+**Summary:** Images may be scaled either up or down in width and length.  
 
 1. **Name:** rotate_Image  
 **Type:** function  
-**Summary:** Will allow the user to rotate the image by at least 45 degree increments, within 360 degrees.   
+**Summary:** The user can rotate an image by at least 45 degree increments, within 360 degrees.   
 
 1. **Name:** flip_Image  
 **Type:** function  
-**Summary:** inverts the image from left to right or top to bottom.  
+**Summary:** Functionality is provided to invert an image from left to right or top to bottom.  
 	
 1. **Name:** crop_Image  
 **Type:** function  
