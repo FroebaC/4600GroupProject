@@ -10,11 +10,11 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** Canvas  
 **Type:** function  
-**Summary:** A canvas will provide a visual platform to position and display images. 
+**Summary:** A graphical canvas will provide a visual platform to position and display images. 
 
 1. **Name:** image_Panel  
 **Type:** function  
-**Summary:** An image panel will show the user currently loaded images for the session.  
+**Summary:** An image panel will show the user thumbnails of currently loaded images available for the session.
 
 1. **Name:** load_Image  
 **Type:**  function  
@@ -30,7 +30,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** select_Image  
 **Type:** function  
-**Summary:** Images available for the session may be placed on the canvas.
+**Summary:** Images available for the session may be selected for the user to perform operations, such as reposition or remove. 
 
 1. **Name:** remove_Image  
 **Type:** function  
@@ -38,7 +38,7 @@ This project is going to be a utility that will be able to do basic image editin
 
 1. **Name:** interface_Toolbar  
 **Type:** function  
-**Summary:** An interactive toolbar element will display and allow access to functions. 
+**Summary:** An interactive toolbar element will display and allow access to various functions. 
 	
 1. **Name:** draw_On_Image  
 **Type:** function  
