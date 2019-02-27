@@ -8,14 +8,14 @@ want to these photos to look more visually appealing or funny, depending on what
 **Other Activities:**  
 **System State on Comepletion:**  
 ## Image Presentations with ImgEdit
-**Initial Assumption:**  
+**Initial Assumption:**   
 **Normal:**  
 **What Can Go Wrong:**  
 **Other Activities:**  
 **System State on Comepletion:**  
 ## Edit Personal Photos with ImgEdit 
-**Initial Assumption:**  
-**Normal:**  
+**Initial Assumption:** The user has some personal photos that they wish to enhance or edit in some way.  
+**Normal:** The user takes their images, makes sure they are saved to their device. After that they can then load the images into ImgEdit and can edit things like color.  
 **What Can Go Wrong:**  
 **Other Activities:**  
 **System State on Comepletion:**  
