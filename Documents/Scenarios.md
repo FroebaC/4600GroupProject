@@ -13,6 +13,6 @@
 
 ## Layer with ImgEdit 
 **Initial Assumption:** The user has multiple images they want to combine into one image. The user has loaded them already into the program.  
-**Normal:** Once the user has multiple images loaded to to ImgEdit, they should place them on the canvas. 
-**What Can Go Wrong:**  
+**Normal:** Since the user already has multiple images loaded to to ImgEdit, they should place them on the canvas. Once they are on the canvas, they can select and drag individual images to reorient them in relation to the canvas. They may also choose to place selected images in front of all of the others, or behind them.   
+**What Can Go Wrong:**   
 
