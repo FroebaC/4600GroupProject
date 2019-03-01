@@ -14,4 +14,4 @@
 ## Layer with ImgEdit 
 **Initial Assumption:** The user has multiple images they want to combine into one image. The user has loaded them already into the program.  
 **Normal:** Since the user already has multiple images loaded to to ImgEdit, they should place them on the canvas. Once they are on the canvas, they can select and drag individual images to reorient them in relation to the canvas. They may also choose to place selected images in front of all of the others, or behind them. The user should save their work.  
-**What Can Go Wrong:**   
+**What Can Go Wrong:** Once the user has decided their work is complete, the composite image wll need to be flattened when it it saved. This can cause problems in that after the image is flattened the user will lose the ability to change any orientation that they would have been able to previously. They user should be notified of this before exiting the program.  
