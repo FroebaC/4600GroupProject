@@ -1,11 +1,8 @@
 # Scenarios for ImgEdit
 
 ## Recolor Image with ImgEdit
-**Initial Assumption:** The user has a local image of type .jpg or .png and want to reformat the color.  
-**Normal:** The user first loads their image. Then, they should select the image. Once it has been selected, they may open a tab  
-that presents them with options. At least two of the options, "Sepia" and "Greyscale" will scale the images color. Sepia will  
-recolor the image to look more brown. Greyscale will adjust the colors to black, white or grey. After they choose an option, they should  
-save their image to keep the changes.
+**Initial Assumption:** The user has a local image of type .jpg or .png and want to reformat the color.
+**Normal:** The user first loads their image. Then, they should select the image. Once it has been selected, they may open a tab that presents them with options. At least two of the options, "Sepia" and "Greyscale" will scale the images color. Sepia will recolor the image to look more brown. Greyscale will adjust the colors to black, white or grey. After they choose an option, they should save their image to keep the changes.  
 **What Can Go Wrong:**   
 **Other Activities:**  
 **System State on Comepletion:**  
