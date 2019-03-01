@@ -1,10 +1,12 @@
 # Scenarios for ImgEdit
 
-## Social Media Photos with ImgEdit
-**Initial Assumption:** The user has a social media account and photos on their computer of the right format. The user 
-wants change to these photos, depending on what they do on social media.  
-**Normal:**  The user will be able to take an image and load it into the program. From there they will be able to edit the image to correct color and lighting, which plays a large role in making posts for social media profiles. They will then be able to edit some basic aspects of their picture, add in other images to layer over the one they loaded in. After the user is done they will be able to save the image to their device. After saving the image they can then upload the picture where they choose.  
-**What Can Go Wrong:** The image might be the wrong file type so it wouldn't load. There could be an issue with the actual image itself, in that it's size is too large, or it is an odd shape which would cause major problems with processing.  
+## Recolor Image with ImgEdit
+**Initial Assumption:** The user has a local image of type .jpg or .png and want to reformat the color.  
+**Normal:** The user first loads their image. Then, they should select the image. Once it has been selected, they may open a tab  
+that presents them with options. At least two of the options, "Sepia" and "Greyscale" will scale the images color. Sepia will  
+recolor the image to look more brown. Greyscale will adjust the colors to black, white or grey. After they choose an option, they should  
+save their image to keep the changes.
+**What Can Go Wrong:**   
 **Other Activities:**  
 **System State on Comepletion:**  
 
@@ -15,7 +17,7 @@ wants change to these photos, depending on what they do on social media.
 **Other Activities:**  
 **System State on Comepletion:**  
 
-## Edit Personal Photos with ImgEdit 
+## Layer with ImgEdit 
 **Initial Assumption:** The user has some personal photos that they wish to enhance or edit in some way.  
 **Normal:** The user takes their images, makes sure they are saved to their device. After that they can then load the images into ImgEdit and can edit things like color.  
 **What Can Go Wrong:**  
