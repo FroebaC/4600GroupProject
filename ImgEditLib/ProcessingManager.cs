@@ -15,10 +15,28 @@ namespace ImgEditLib
         private Layer layer;
         private List<Image> images;
 
+        public List<Image> Images
+        {
+            get
+            {
+                return images;
+            }
+
+            set
+            {
+                images = value;
+            }
+        }
+
         public ProcessingManager()
         {
+            Images = new List<Image>();
 
+        }
 
+        public ProcessingManager(List<Image> images)
+        {
+            Images = this.images;
         }
 
 
