@@ -11,7 +11,7 @@ namespace ImgEditLib
     public class ImageManager
     {
         private List<Image> images;
-        private StateManager stateManager;
+        private StateManger stateManager;
         private ProcessingManager processingManager;
 
         public List<Image> Images
@@ -29,7 +29,9 @@ namespace ImgEditLib
 
         public ImageManager()
         {
-
+            StateManger StateManager = new StateManger();
+            List<Image> Images = new List<Image>();
+            ProcessingManager ProcessingManager = new ProcessingManager();
         }
 
         public Image InvokeProcessingManager(Image image)
