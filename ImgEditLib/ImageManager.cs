@@ -36,7 +36,7 @@ namespace ImgEditLib
 
         public Image InvokeProcessingManager(Image image)
         {
-            ProcessingManager()
+            
             return image;
         }
 

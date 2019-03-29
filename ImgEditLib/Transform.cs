@@ -45,7 +45,7 @@ namespace ImgEditLib
             return image;
         }
 
-        public Image Crop(Image image, int x1, int y1, int x2, int y2)
+        public Image Crop(Image image, double x1, double y1, double x2, double y2)
         {
             return image;
         }
