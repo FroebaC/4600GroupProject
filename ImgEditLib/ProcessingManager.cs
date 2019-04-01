@@ -54,15 +54,26 @@ namespace ImgEditLib
                     transform.ColorCorrect(image);
                     break;
                 case 3:
-                    //just put default values, not enough time to get user to pick that will be something that needs to be fixed
-                    transform.Crop(image,image.Width*.25, image.Height * .75, image.Width * .5, image.Height);
+                    //just put magic numbers, 
+                    //needs to be switched so user can pick what to crop, 
+                    //will be done with mouse clicks on the canvas
+                    transform.Crop(image,image.Width*.25, 
+                        image.Height * .75, 
+                        image.Width * .5, 
+                        image.Height);
                     break;
                 case 4:
+                    break;
                 case 5:
+                    break;
                 case 6:
+                    break;
                 case 7:
+                    break;
                 case 8:
+                    break;
                 case 9:
+                    break;
                 default: throw new ArgumentOutOfRangeException("Please use a propper case.");
                     
                     

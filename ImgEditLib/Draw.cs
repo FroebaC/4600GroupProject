@@ -21,18 +21,21 @@ namespace ImgEditLib
 
         public Image Pen()
         {
+            throw new NotImplementedException();
             return imageToDrawOn;
         }
 
 
         public Image Brush()
         {
+            throw new NotImplementedException();
             return imageToDrawOn;
         }
 
 
         public Image Bucket()
         {
+            throw new NotImplementedException();
             return imageToDrawOn;
         }
 

@@ -32,12 +32,14 @@ namespace ImgEditLib
 
         public List<Image> SendToFront(List<Image> images)
         {
+            throw new NotImplementedException();
             return images;
         }
 
 
         public List<Image> SendToBack(List<Image> images)
         {
+            throw new NotImplementedException();
             return images;
         }
 
