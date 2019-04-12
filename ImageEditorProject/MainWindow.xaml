@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ImageEditorProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="660.05">
     <Grid>
-        
+        <ToolBarTray Background="DarkGray" Height="30" VerticalAlignment="Top">
+            <ToolBar Name="MyToolbar" Height="30" Margin="0,0,-521,0" >
+                <Button Background="Gray" Content="Open" Name="OpenButton" Click="OpenButton_Click" Margin="0,2,0,0" VerticalAlignment="Top"/>
+                <Button Background="Gray" Content="Save" Name="SaveButton" Click="SaveButton_Click"/>
+                <Button Background="Gray" Content="Edit" Name="EditButton" Click="EditButton_Click"/>
+                <Button Background="Gray" Content="Crop" Name="CropButton" Click="CropButton_Click"/>
+                <Button Background="Gray" Content="Grayscale" Name="GrayscaleButton" Click="GrayscaleButton_Click"/>
+                <Button Background="Gray" Content="Exit" Name="ExitButton" Click="ExitButton_Click"/>
+            </ToolBar>
+        </ToolBarTray>
+        <Image x:Name="imageDisplayed" HorizontalAlignment="Left" Height="439" Margin="0,30,0,0" VerticalAlignment="Top" Width="652"/>
+
+
     </Grid>
 </Window>
