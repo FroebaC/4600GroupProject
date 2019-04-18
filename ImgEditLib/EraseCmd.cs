@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class EraseCommand : Command
+    public class EraseCmd : Command
     {
         Bitmap Execute(Bitmap image, string filename)
         {

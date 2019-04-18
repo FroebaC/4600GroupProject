@@ -11,7 +11,7 @@ using System.IO;
 
 namespace ImgEditLib
 {
-    public class GrayscaleCommand : Command
+    public class GrayscaleCmd : Command
     {
         public Bitmap Execute(Bitmap image, string filename)
         {

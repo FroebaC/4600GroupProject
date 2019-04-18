@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class BucketCommand : Command
+    public class FlipCmd : Command
     {
         Bitmap Execute(Bitmap image, string filename)
         {

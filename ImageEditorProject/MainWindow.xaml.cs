@@ -86,7 +86,7 @@ namespace ImageEditorProject
         private void GrayscaleButton_Click(object sender, RoutedEventArgs e)
         {
             
-            ImgEditLib.Command cmd = new ImgEditLib.GrayscaleCommand();
+            ImgEditLib.Command cmd = new ImgEditLib.GrayscaleCmd();
             image = System.Drawing.Image.FromFile(openFileDialog.FileName);
             image = cmd.Execute(new Bitmap(image), openFileDialog.FileName);
             MessageBox.Show(openFileDialog.FileName);

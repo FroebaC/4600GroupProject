@@ -42,20 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrightnessCorrectCmd.cs" />
-    <Compile Include="BrushCommand.cs" />
-    <Compile Include="BucketCommand.cs" />
-    <Compile Include="ColorCorrectCommand.cs" />
+    <Compile Include="BrushCmd.cs" />
+    <Compile Include="BucketCmd.cs" />
+    <Compile Include="ColorCorrectCmd.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="CommandDriver.cs" />
-    <Compile Include="CropCommand.cs" />
-    <Compile Include="EraseCommand.cs" />
-    <Compile Include="FlipCommand.cs" />
-    <Compile Include="GrayscaleCommand.cs" />
-    <Compile Include="LayerCommand.cs" />
-    <Compile Include="PenCommand.cs" />
+    <Compile Include="CropCmd.cs" />
+    <Compile Include="EraseCmd.cs" />
+    <Compile Include="FlipCmd.cs" />
+    <Compile Include="GrayscaleCmd.cs" />
+    <Compile Include="LayerCmd.cs" />
+    <Compile Include="PenCmd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScaleCommand.cs" />
-    <Compile Include="SepiaCommnad.cs" />
+    <Compile Include="ScaleCmd.cs" />
+    <Compile Include="SepiaCmd.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

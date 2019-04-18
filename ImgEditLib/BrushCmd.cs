@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class BrushCommand : Command
+    public class BrushCmd : Command
     {
         Bitmap Execute(Bitmap image)
         {

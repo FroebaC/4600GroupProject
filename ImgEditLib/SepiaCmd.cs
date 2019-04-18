@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class LayerCommand
+    public class SepiaCmd : Command
     {
         Bitmap Execute(Bitmap image, string filename)
         {

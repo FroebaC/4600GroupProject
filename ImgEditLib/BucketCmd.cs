@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class ColorCorrectCommand : Command
+    public class BucketCmd : Command
     {
         Bitmap Execute(Bitmap image, string filename)
         {

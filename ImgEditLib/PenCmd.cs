@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class ScaleCommand : Command
+    public class PenCmd : Command
     {
         Bitmap Execute(Bitmap image, string filename)
         {

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class CropCommand : Command
+    public class CropCmd : Command
     {
         private int x1;
         private int y1;
         private int x2;
         private int y2;
-        public CropCommand(Bitmap image)
+        public CropCmd(Bitmap image)
         {
             x1 = 0;
             y1 = 0;
