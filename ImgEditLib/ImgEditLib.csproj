@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BrightnessCorrectCommand.cs" />
+    <Compile Include="BrightnessCorrectCmd.cs" />
     <Compile Include="BrushCommand.cs" />
     <Compile Include="BucketCommand.cs" />
     <Compile Include="ColorCorrectCommand.cs" />

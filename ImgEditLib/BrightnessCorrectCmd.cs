@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImgEditLib
 {
-    public class BrightnessCorrectCommand : Command
+    public class BrightnessCorrectCmd : Command
     {
         public Bitmap Execute(Bitmap image, string filename)
         {
