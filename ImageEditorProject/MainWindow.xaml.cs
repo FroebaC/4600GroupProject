@@ -66,14 +66,9 @@ namespace ImageEditorProject
             openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
             if (openFileDialog.ShowDialog() == true )
             {
-                //makes a new temporary bitmap image so we can scale down the display
-                BitmapImage temp = new BitmapImage(new Uri(openFileDialog.FileName));
-                
-                //scale down the display's height and width so the image doesnt look distorted
-                imageDisplayed.Height = temp.Height;
-                imageDisplayed.Width = temp.Width;
+
                 //sets the diplay's source with the image that is selected.
-                imageDisplayed.Source = temp;
+                imageDisplayed.Source = new BitmapImage(new Uri(openFileDialog.FileName));
             }
         }
 

@@ -10,15 +10,15 @@ namespace ImgEditLib
     public class CommandDriver
     {
 
-        private List<Command> commands;
+        private static List<Command> commands;
 
-        private Bitmap image;
+        //private Bitmap image;
 
-        Command cmd = null;
-        public CommandDriver()
+        //Command cmd;
+        public CommandDriver(Bitmap original, Command cmd)
         {
-            commands = new List<Command>();
-            image = new Bitmap("");
+            commands.Add(cmd);
+            
 
         }
 

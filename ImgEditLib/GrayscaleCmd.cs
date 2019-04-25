@@ -13,7 +13,7 @@ namespace ImgEditLib
 {
     public class GrayscaleCmd : Command
     {
-        public Bitmap Execute(Bitmap image, string filename)
+        public override Bitmap Execute(Bitmap image, string filename)
         {
             Bitmap bitMapImage = new Bitmap(image);
             for(int i = 0; i < bitMapImage.Width; i++)
