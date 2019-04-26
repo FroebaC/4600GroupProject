@@ -28,6 +28,7 @@ namespace ImageEditorProject
         private OpenFileDialog openFileDialog = new OpenFileDialog();
         private SaveFileDialog saveFile = new SaveFileDialog();
         private System.Drawing.Image image;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -62,11 +63,9 @@ namespace ImageEditorProject
 
         private void OpenButton_Click(object sender, RoutedEventArgs e)
         {
-            
             openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
             if (openFileDialog.ShowDialog() == true )
             {
-
                 //sets the diplay's source with the image that is selected.
                 imageDisplayed.Source = new BitmapImage(new Uri(openFileDialog.FileName));
             }
@@ -80,14 +79,16 @@ namespace ImageEditorProject
 
         private void GrayscaleButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            ImgEditLib.Command cmd = new ImgEditLib.GrayscaleCmd();
-            image = System.Drawing.Image.FromFile(openFileDialog.FileName);
-            image = cmd.Execute(new Bitmap(image), openFileDialog.FileName);
-            MessageBox.Show(openFileDialog.FileName);
-            
-            BitmapImage bitmapImage = new BitmapImage(new Uri(openFileDialog.FileName));
-            imageDisplayed.Source = bitmapImage;
+
+            ImgEditLib.CommandDriver cmd = new ImgEditLib.CommandDriver(new Bitmap(imageDisplayed.Source), new ImgEditLib.GrayscaleCmd());
+
+            BitmapSource bs = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
+              cmd.returnImg.GetHbitmap(),
+              IntPtr.Zero,
+              System.Windows.Int32Rect.Empty,
+              BitmapSizeOptions.FromWidthAndHeight(cmd.returnImg.Width, cmd.returnImg.Height));
+
+            imageDisplayed.Source = bs;
         }
     }
 }

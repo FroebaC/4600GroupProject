@@ -11,15 +11,16 @@ namespace ImgEditLib
     {
 
         private static List<Command> commands;
+        Bitmap ReturnImage;
+        public Bitmap returnImg
+        {
+            get { return ReturnImage; }
+        }
 
-        //private Bitmap image;
-
-        //Command cmd;
         public CommandDriver(Bitmap original, Command cmd)
         {
             commands.Add(cmd);
-            
-
+            ReturnImage = cmd.Execute(original);
         }
 
         

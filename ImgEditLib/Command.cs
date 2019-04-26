@@ -11,7 +11,7 @@ namespace ImgEditLib
     {
         private Bitmap original;
         private string pathName;
-        public virtual Bitmap Execute(Bitmap input, string pathName)
+        public virtual Bitmap Execute(Bitmap input)
         {
             original = input;
             return original;
