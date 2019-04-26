@@ -28,7 +28,6 @@ namespace ImageEditorProject
 
         private OpenFileDialog openFileDialog = new OpenFileDialog();
         private SaveFileDialog saveFile = new SaveFileDialog();
-        private System.Drawing.Image image;
         Bitmap bmpimage;
 
         public MainWindow()
@@ -55,7 +54,7 @@ namespace ImageEditorProject
             if (saveFile.ShowDialog() == true)
             {
                 //image = System.Drawing.Image.FromFile(openFileDialog.FileName);
-                this.image.Save(saveFile.FileName);
+                this.bmpimage.Save(saveFile.FileName);
             }
         }
 
