@@ -10,7 +10,7 @@ namespace ImgEditLib
     public class CommandDriver
     {
 
-        private static List<Command> commands;
+        private static List<Command> commands = new List<Command>();
         Bitmap ReturnImage;
         public Bitmap returnImg
         {

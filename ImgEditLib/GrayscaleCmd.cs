@@ -21,8 +21,8 @@ namespace ImgEditLib
                 for(int j = 0; j < bitMapImage.Height; j++)
                 {
                     Color pixelColor = bitMapImage.GetPixel(i, j);
-                    Color newColor = Color.Gray;
-                    //Color newColor = Color.FromArgb(pixelColor.R,0,0);
+                    //Color newColor = Color.Gray;
+                    Color newColor = Color.FromArgb(pixelColor.R,0,0);
                     bitMapImage.SetPixel(i, j, newColor);
                     
                 }
