@@ -14,6 +14,7 @@
                 <Button Background="Gray" Content="Edit" Name="EditButton" Click="EditButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 <Button Background="Gray" Content="Crop" Name="CropButton" Click="CropButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 <Button Background="Gray" Content="Grayscale" Name="GrayscaleButton" Click="GrayscaleButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <Button Background="Gray" Content="Sepia" Name="SepiaButton" Click="SepiaButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 <Button Background="Gray" Content="Exit" Name="ExitButton" Click="ExitButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
             </ToolBar>
         <!--</ToolBarTray>-->

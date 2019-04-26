@@ -117,36 +117,14 @@ namespace ImageEditorProject
                 BitmapSizeOptions.FromEmptyOptions());
             return i;
                 
-                
-
-
-
-
-            //IntPtr hBitmap = bitmap.GetHbitmap();
-            //BitmapImage retval;
-
-
-            //try
-            //{
-            //    retval = (BitmapImage)Imaging.CreateBitmapSourceFromHBitmap(
-            //        hBitmap,
-            //        IntPtr.Zero,
-            //        Int32Rect.Empty,
-            //        BitmapSizeOptions.FromEmptyOptions());
-            //}
-            //finally
-            //{
-            //    DeleteObject(hBitmap);
-            //}
-
-            //return retval;
 
         }
 
-
-
-
-
-
+        private void SepiaButton_Click(object sender, RoutedEventArgs e)
+        {
+            ImgEditLib.CommandDriver cmd = new ImgEditLib.CommandDriver(bmpimage, new ImgEditLib.SepiaCmd());
+            bmpimage = cmd.returnImg;
+            imageDisplayed.Source = Bitmap2BitmapImage(bmpimage);
+        }
     }
 }
